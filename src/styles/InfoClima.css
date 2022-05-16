@@ -1,0 +1,64 @@
+.info-contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-location{
+    width: 100%;
+    text-align: center;
+}
+
+.location-name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.location-country{
+    font-size: 20px;
+}
+
+.info-temperature{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.temperature-image{
+    width: 100px;
+    height: auto;
+}
+
+.temperature-text{
+    font-size: 20px;
+}
+
+.temperature-value{
+    font-weight: bold;
+}
+
+.mapa-frame{
+    width: 600px;
+    height: 400px;
+    border: 0px;
+}
+
+@media screen and (max-width: 769px) {
+    .mapa-frame{
+        width: 400px;
+        height: 400px;
+
+    }
+ }
+ 
+
+@media screen and (max-width: 500px) {
+    .mapa-frame{
+        width: 300px;
+        height: 350px;
+    }
+ }

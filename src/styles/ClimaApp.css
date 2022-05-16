@@ -1,0 +1,25 @@
+.container-app{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   width: 700px;
+   height: 700px;
+   background-color: #EEEEEE;
+   border-radius: 15px;
+   box-shadow: 0px 10px 0px 0px rgba(0,0,0,0.75);
+   padding: 20px 10px 20px 10px;
+   margin: 40px 0px 40px 0px;
+}
+
+@media screen and (max-width: 769px) {
+   .container-app{
+      width: 500px;
+   }
+}
+
+@media screen and (max-width: 500px) {
+   .container-app{
+      width: 400px;
+   }
+}
